@@ -370,10 +370,10 @@
           avatar: https://jsd.cdn.storisinz.site/gh/lveMonsi/ImgPlus/img/202307151450821.jpg
           descr: 无限摸鱼🐟
           siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.lvems.top/
-        - name: 蛋蛋困了
+        - name: 彬彬加冰
           link: https://blog.wzwzx.cn
-          avatar: https://blog.wzwzx.cn/wp-content/uploads/2024/03/b_6c707fe3d582ea760057a6c818ab7b6a.jpg
-          descr: 希望下雨
+          avatar: https://cdn.wzwzx.cn/binbin-w8sl.png
+          descr: 走进我的影子，触摸我的心
           siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.wzwzx.cn
         - name: Isoheptane
           link: https://blog.cascade.moe/
@@ -545,6 +545,16 @@
           avatar: https://www.yuncheng.fun/static/webAvatar/11727945933180571.png
           descr: 欸，是谁家的小可爱？
           siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.yuncheng.fun/
+        - name: 亚斯之声
+          link: https://we.owaii.net
+          avatar: https://me.owaii.net/favicon.ico
+          descr: 𝗪𝗲 𝗔𝗿𝗲 𝗛𝘂𝗺𝗮𝗻 𝗕𝗲𝗶𝗻𝗴𝘀, 𝗡𝗼𝘁 𝗛𝘂𝗺𝗮𝗻 𝗗𝗼𝗶𝗻𝗴𝘀.
+          siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://we.owaii.net
+        - name: 酸奶云✨
+          link: https://blog.mcyogurt.cn/
+          avatar: https://i.postimg.cc/Lss1ZM3n/avatar.jpg
+          descr: 关于MCの另一个空间
+          siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.mcyogurt.cn/
 - class_name: 友谊长存
   class_desc: 无评论系统的博客（相识即是缘分）
   flink_style: butterfly
