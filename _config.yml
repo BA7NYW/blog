@@ -174,3 +174,31 @@ hexo_safego:
   debug:
     enable: false               # 启用调试模式
 
+swpp:
+  # 是否启用，默认 false
+  enable: true
+  # 配置文件路径，以 `/` 结尾表示加载指定文件夹下的所有文件，注意文件夹中只能有配置文件，不能有其它文件及文件夹
+  # config_path: 'swpp.config.ts'
+  # 是否生成 sw
+  # serviceWorker: true
+  # 是否向所有 HTML 插入注册 sw 的代码
+  # auto_register: true
+  # 是否生成 DOM 端的 JS 文件并在 HTML 中插入 script
+  # gen_dom: true
+  # 生成的 diff 文件的路径（可以是绝对路径也可以是相对路径，使用相对路径时相对于网站发布目录），留空表示不生成（默认为 null）
+  # gen_diff: './diff.json'
+  # 是否在执行 hexo deploy 时自动执行 swpp 指令
+  # auto_exec: false
+  # 检查更新的网址，默认 "https://registry.npmjs.org"，注意不能以斜杠结尾
+  # npm_url: 'https://registry.npmmirror.com'
+  #
+  # 排序规则。
+  # sort_rules:
+  # 该配置项是为了对 hexo 中的一些变量进行排序，避免每次生成 HTML 时由于这些变量的顺序变动导致生成结果不完全相同。
+  # 下面给出的值为插件的缺省值，用户设置该项不会直接覆盖这些值，只有用户也声明 posts、pages 或 tags 时才会覆盖对应的值。
+  # 其中 key 值为要排序的变量的名称，value 为变量排序时的依据，
+  # 填 false 表示禁用该项排序，填 true 表示以 value 本身为键进行排序，填字符串表示以 value[tag] 为键进行排序。
+  # sort_rules:
+  #   posts: 'title'
+  #   pages: 'title'
+  #   tags: 'name'
