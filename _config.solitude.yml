@@ -859,7 +859,7 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: twikoo # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: artalk # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: true

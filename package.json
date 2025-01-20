@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "node link.js && npm run clean && hexo generate",
+    "build": "npm run generate && gulp",
+    "generate":"node link.js && npm run clean && hexo generate",
     "clean": "hexo clean",
-    "deploy": "npm run build && gulp && hexo deploy",
+    "deploy": "npm run generate && gulp && hexo deploy",
     "server": "npm run clean && node link.js && hexo swpp && hexo generate && hexo server"
   },
   "hexo": {
