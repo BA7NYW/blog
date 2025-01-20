@@ -609,7 +609,7 @@ footer:
     - name: RSS
       url: /atom.xml
     - name: License
-      url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+      url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
       icon:
         - fas fa-copyright
         - fab fa-creative-commons-by
