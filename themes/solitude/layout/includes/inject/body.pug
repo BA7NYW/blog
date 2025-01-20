@@ -111,6 +111,12 @@ div
 
     if theme.busuanzi && (theme.aside.siteinfo.uv || theme.aside.siteinfo.pv || is_post() && theme.post.meta.pv)
       script(defer pjax src=url_for(theme.cdn.busuanzi_js))
+  if theme.indieweb.enable && theme.indieweb.webmention.enable && page.webmention !== false
+    script.
+      var webmentionContext = { baseUrl:'https://webmention.io'}; 
+      var webmentionEndpoint = '!{theme.indieweb.webmention.endpoint}'
+    script(data-pjax src=url_for(theme.cdn.webmention))
+    script(data-pjax src=url_for(theme.cdn.webmention_timeline))
 
   script(src=url_for(theme.cdn.jquery))
 

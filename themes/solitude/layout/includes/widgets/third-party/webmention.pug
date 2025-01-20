@@ -1,9 +1,3 @@
-script.
-  var webmentionContext = { baseUrl:'https://webmention.io'}; 
-  var webmentionEndpoint = '!{theme.indieweb.webmention.endpoint}'
-
-script(data-pjax src=url_for(theme.cdn.webmention))
-
 hr
 #post-comment
   .comment-head
@@ -12,4 +6,3 @@ hr
       span= ' ' + _p('webmention.webmention')
 
   .comment-wrap.webmention-timeline
-  script(data-pjax src=url_for(theme.cdn.webmention_timeline))
