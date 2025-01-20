@@ -912,7 +912,7 @@ valine:
 # Artalk: https://solitude.js.org/comment/artalk
 # Artalk: https://solitude.js.org/zh/comment/artalk
 artalk:
-  server: https://atk.pl.blog.sinzmise.top/ # server url
+  server: https://atk.pl.blog.sinzmise.top # server url
   site: 汐塔魔法屋 # site name
   option: # options
 # Giscus: https://solitude.js.org/comment/giscus
