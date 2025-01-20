@@ -607,7 +607,7 @@ footer:
 
   # 页脚信息文字
   links:
-    - name: <a href="https://xn--sr8hvo.ws/previous">←</a>An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍<a href="https://xn--sr8hvo.ws/next">→</a>
+    - name: <a href="https://xn--sr8hvo.ws/previous">←</a>&nbsp;An&nbsp;<a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>&nbsp;🕸💍&nbsp;<a href="https://xn--sr8hvo.ws/next">→</a>
     - name: RSS
       url: /atom.xml
     - name: License
