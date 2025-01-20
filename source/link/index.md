@@ -80,12 +80,6 @@ comment: false
           descr: 种田佬记录下生活的美好时刻
           link: https://www.wuyuankang.website/
           siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://www.wuyuankang.website/
-        # 无法访问，但是问题是ERR_SSL_UNRECOGNIZED_NAME_ALERT，疑似证书问题
-        - name: 王鑫的小站
-          descr: 我的小站很大，欢迎来我小站玩~
-          avatar: https://wxweb.xyz/wp-content/uploads/2024/05/1716211806-mmexport1716211797071.jpg
-          link: https://wxweb.xyz
-          siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://wxweb.xyz
 ```
 （既然“小伙伴们”的友情链接超过10条，那么是时候该提一下添加要求了）
 # 本站添加友链要求
