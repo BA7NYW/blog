@@ -10,8 +10,6 @@ node_modules/
 .idea/
 .vscode/
 _multiconfig.yml
-_config.*.yml
-_config.yml
 gulpfile.js
 sw-rules.js
 logs

@@ -1,0 +1,24 @@
+- var menu = theme.nav.menu
+
+if menu
+    .menus_items
+        each value, label in menu
+            .menus_item
+                if typeof value !== 'object'
+                    a.site-page(href=url_for(value))
+                        span= label
+                else
+                    a.site-page(href="javascript:void(0);")
+                        span= label
+                    ul.menus_item_child
+                        each childValue, childLabel in value
+                            li
+                                - var array = childValue.split('||')
+                                a.site-page.child(href=url_for(trim(array[0])))
+                                    - var icon_val = trim(array[1])
+                                    if icon_val.substring(0,2)=="fa"      
+                                        i.solitude(class=icon_val)
+                                    else if icon_val.substring(0,4)=="icon"
+                                        svg.menu_icon.solitude(aria-hidden="true" style="width:20px;height:20px;vertical-align:-0.15em;fill:currentColor;overflow:hidden;")
+                                            use(xlink:href=`#`+ icon_val)    
+                                    span= childLabel

@@ -1,0 +1,15 @@
+script.
+  var webmentionContext = { baseUrl:'https://webmention.io'}; 
+  var webmentionEndpoint = '!{theme.indieweb.webmention.endpoint}'
+
+script(data-pjax src=url_for(theme.cdn.webmention))
+
+hr
+#post-comment
+  .comment-head
+    .comment-headline
+      i.fas.fa-comments.fa-fw
+      span= ' ' + _p('webmention.webmention')
+
+  .comment-wrap.webmention-timeline
+  script(data-pjax src=url_for(theme.cdn.webmention_timeline))

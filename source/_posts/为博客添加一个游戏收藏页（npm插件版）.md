@@ -17,9 +17,9 @@ lang: zh-CN
 我原本是想要给我博客搞这个的，但由于我一般会给博客的主题更新，导致魔改的内容消失
 思来想去，我还是决定做npm版本的游戏收藏页
 # 效果
-{% hideBlock 效果预览 %}
+{% fold '效果预览' %}
 ![](https://jsd.cdn.storisinz.site/gh/SinzMise/picx-images-hosting@master/20240118/msedge_3ga8r6QcmR.3doduw5wpd60.png)
-{% endhideBlock %}
+{% endfold %}
 # 安装
 
 1. 安装插件,在博客根目录`[Blogroot]`下打开终端，运行以下指令：

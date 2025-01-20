@@ -3,6 +3,7 @@ title: 朋友圈
 date: 2024-05-02 12:01:50
 top_img: false
 aside: false
+comment: false
 ---
 {% raw %}
 <div id="friend-circle-lite-root"></div>
@@ -18,7 +19,7 @@ aside: false
         }
     }
 </script>
-<link rel="stylesheet" href="https://jsd.cdn.storisinz.site/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
-<script src="https://jsd.cdn.storisinz.site/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
+<link rel="stylesheet" href="https://jsd.cdn.sinzmise.top/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
+<script src="https://jsd.cdn.sinzmise.top/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
 
 {% endraw %}

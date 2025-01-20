@@ -13,9 +13,9 @@ date: 2023-01-08 22:31:46
 lang: zh-CN
 ---
 # 前言
-{% note info modern %}
+{% tip info %}
 本博客音乐页面已经换成了[安知鱼大佬的方案](https://anzhiy.cn/posts/c3d3.html)
-{% endnote %}
+{% endtip %}
 没有音乐页面怎么行，花里胡哨的都安排上，本来想摆烂直接上aplayer，~~但考虑到我不会写样式（虽然我可以自学）~~ 所以我音乐页面用的是[Chuckle的方案](https://www.chuckle.top/article/3322c8a8.html)
 {% psw （等会为啥开头这么像<a href="https://www.chuckle.top/article/3322c8a8.html">这篇文章</a>） %}
 原本我是想做[单页背景透明](https://www.chuckle.top/article/eb3a4679.html)的，但我发现单页背景透明和我博客背景冲突导致丑的一批，所以我把背景换成了渐变动画
@@ -29,10 +29,10 @@ lang: zh-CN
 # 教程
 {% tabs 教程开始, 2 %}
 <!-- tab 1.0 -->
-{% note info modern %}
+{% tip info %}
 这个教程是我基于https://www.php.cn/xiazai/js/6169 做的适配butterfly主题的版本，但后面我发现这跟csdn里的[html好看的音乐播放器](https://blog.csdn.net/weixin_43151418/article/details/125351391){% psw （希望csdn那篇文章的作者看完不会在意） %}
-{% endnote %}
-{% note warning modern %}目前博客已经弃用这个方案，改用2.0版本{% endnote %}
+{% endtip %}
+{% tip warning %}目前博客已经弃用这个方案，改用2.0版本{% endtip %}
 1. 新建[Blogroot]\themes\butterfly\layout\includes\page\music.pug，内容如下：
 {% folding green, 点我查看代码 %}
 ``` pug
@@ -831,9 +831,9 @@ if theme.musicplayer.hitokoto
 {% btns rounded grid5 %}
 {% cell （密码：3r5i）, https://sinz.lanzouw.com/iUJTx0krafpi, fas fa-download %}
 {% endbtns %}
-{% note info modern %}
+{% tip info %}
 1.0想升级成2.0的，下面的步骤可以不用做
-{% endnote %}
+{% endtip %}
 3. 编辑[blogroot]\themes\butterfly\_config.yml，在末尾添加：
 ``` yml
 musicplayer:

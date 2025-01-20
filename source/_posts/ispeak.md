@@ -18,9 +18,9 @@ lang: zh-CN
 # 教程
 ## 后端部署
 ### 配置数据库
-{% note info simple %}
+{% tip info %}
 以下内容来自：https://discuss.js.org/guide/Get-MongoDB-DataBase.html
-{% endnote %}
+{% endtip %}
 1. 注册[MongoDB](https://www.mongodb.com/cloud/atlas/register)账号，注册完成后会提示你创建一个组织，并且输入一个项目昵称，选择编程语言(不选也可以)，随后点击右下角的 `Continue`(继续)，如果没有可以跟如下图执行，点击 `Create an Organization`(创建组织)
    ![Organizations-Home](https://discuss.js.org/img/guide/Get-MongoDB-DataBase/Organizations-Home.png)
    ![Register-Organizations](https://discuss.js.org/img/guide/Get-MongoDB-DataBase/Register-Organizations.png)
@@ -34,20 +34,20 @@ lang: zh-CN
 2. 选择免费的共享数据库，随后会跳出选择地区(选择离你服务端近的即可)，点击 `Create Cluster`创建
 3. 随后您需要创建数据库用户，输入用户名和密码，继续向下滚动就是添加 IP 地址，最后点击下方的 `Finish and Close`(完成并关闭)按钮
 
-{% note warning simple %}
+{% tip warning %}
 **注意**
 服务器部署，则填服务器公网 IP
 `无服务器(ServerLess)`ServerLess 一般都是动态 IP，你无法得到一个固定 IP，我们建议填写 `0.0.0.0`
-{% endnote %}
+{% endtip %}
 
 ![Add IP](https://discuss.js.org/img/guide/Get-MongoDB-DataBase/Add-IP.png)
 
 4. 稍作等待创建好数据库即可，随后点击 `Connect`(连接)，点击选择 `Connect you application`(连接应用程序)，然后复制连接数据库字符串
 
-{% note warning simple %}
+{% tip warning %}
 **注意**
 需要将字符串中的 `<password>`替换为您在第三步创建的数据库用户密码，修改 `myFirstDatabase`为你想要的数据库名称例如:`Discuss`
-{% endnote %}
+{% endtip %}
 
 ![Connect](https://discuss.js.org/img/guide/Get-MongoDB-DataBase/Connect.png)
 ![Get Connect](https://discuss.js.org/img/guide/Get-MongoDB-DataBase/Get-Connect.png)
@@ -72,9 +72,9 @@ lang: zh-CN
 <!-- endtab -->
 
 <!-- tab 服务器部署 -->
-{% note info simple %}
+{% tip info %}
 以下内容来自：https://kkapi.js.org/guide/setup/deploy.html#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E9%83%A8%E7%BD%B2%E5%A7%BF%E5%8A%BF%EF%BC%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2
-{% endnote %}
+{% endtip %}
 克隆源代码
 
 git clone https://ghproxy.com/https://github.com/kkfive/kkapi-open.git
@@ -130,16 +130,16 @@ pm2 restart pm2.json
 {% endtabs %}
 ### 部署kkadmin
 介绍：kkadmin是kkapi的后台，方便发布说说
-{% note success simple %}
+{% tip success %}
 以下部署姿势你只需要任选其一即可，无需全部部署。
-{% endnote %}
+{% endtip %}
 
 {% tabs 部署kkadmin, 2 %}
 <!-- tab Vercel部署 -->
-{% note warning simple %}
+{% tip warning %}
 由于构建 kkadmin 时部分依赖文件需要 nodejs16 及以上版本才可以安装，因此不能将源代码扔给 vercel 进行构建。
 所以只能够利用 GitHub actions 构建完成后将产物扔给 vercel 进行使用
-{% endnote %}
+{% endtip %}
 1. Fork这个项目：https://github.com/kkfive/kkadmin-open/
    
 ![msedge_6HMaGfN000](https://jsd.cdn.storisinz.site/gh/StarWEB890/TuChuang@master/images/msedge_6HMaGfN000.1csf0rae8okg.webp)
@@ -182,10 +182,10 @@ PS：如果你Fork的这个项目有改Repository name，那么请将上面的�
 <!-- endtab -->
 
 <!-- tab CF pages部署（推荐） -->
-{% note info simple %}
+{% tip info %}
 如果你已经在 GitHub actions 部署了，那么 cf pages 部署时也可以选择 vercel 进行部署。也可以使用主干分支进行打包部署。
 接下来的教程以使用 cf pages 构建为例介绍
-{% endnote %}
+{% endtip %}
 1. fork项目（可直接fork）
 2. 导入项目
 
@@ -212,9 +212,9 @@ PS：如果你Fork的这个项目有改Repository name，那么请将上面的�
 ### 进入后台，查看个人ID
 ![查看个人ID](https://file.acs.pw/picGo/2022/02/27/20220227131425.png)
 ### 前端引入
-{% note info simple %}
+{% tip info %}
 ipseak 使用 marked 依赖和 highlight 依赖，为了减少打包体积，并没有将该依赖打包，因此需要使用 cdn 进行外部引入。
-{% endnote %}
+{% endtip %}
 {% tabs 前端引入ispeak, 2 %}
 <!-- tab 使用Waline -->
 1. 在博客目录下运行`hexo new page speaks`

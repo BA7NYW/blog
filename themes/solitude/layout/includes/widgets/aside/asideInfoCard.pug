@@ -1,0 +1,21 @@
+.card-widget.card-info.h-card
+    .card-content
+        .card-info-avatar.is-center
+            .author-info__top-group
+                .author-info__sayhi#author-info__sayhi(onclick="sco.changeWittyWord()")
+        .avatar-img-group
+            img.avatar-img(alt=_p('aside.avatar'), src=theme.aside.my_card.author.img)
+            if theme.aside.my_card.author.sticker
+                .avatar-sticker
+                    img.u-logo.avatar-sticker-img(src=theme.aside.my_card.author.sticker, alt=_p('aside.sticker'))
+        .author-info__description_group
+            .author-info__description!= theme.aside.my_card.content
+        .author-info__bottom-group
+            span.author-info__bottom-group-left
+                .author-info__name.p-name.p-author= config.author
+                .author-info__desc!= theme.aside.my_card.description
+            .card-info-social-icons.is-center
+                each value, label in theme.aside.my_card.information || {}
+                    - var array = value.split('||')
+                    a.social-icon.u-url(class=array[2] href=url_for(trim(array[0])), title=label, rel="me")
+                        i.solitude(class=array[1])

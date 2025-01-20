@@ -1,22 +1,12 @@
 ---
 title: 友人帐
 date: 2020-12-01 22:19:45
-type: link
+banner: true
+type: "links"
 top_img: false
 aside: false
+comment: false
 ---
-# 通过qexo添加的
-{% raw %}
-
-<div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.css"/>
-
-<script data-pjax src="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.js"></script>
-<script data-pjax>loadQexoFriends("qexo-friends", "https://houtai.hexo.sinzmise.top")</script>
-
-<link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
-
-{% endraw %}
 # 待君归（大佬）
 “大佬们们”链接中无法访问的站点
 ```yaml
@@ -107,39 +97,39 @@ aside: false
 | 名称      | 值 |
 | ----------- | ----------- |
 |站点名称|汐塔魔法屋|
-|站点地址|https://blog.sinzmise.top/|
+|站点地址|https://blog.storical.space/|
 |站点描述|种下一颗有故事的种子，让它带着魔法和奇迹生根发芽|
-|站点图像|https://blog.sinzmise.top/images/icon.png|
-|站点页面|https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.sinzmise.top/|
+|站点图像|https://blog.storical.space/images/icon.png|
+|站点页面|https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.storical.space/|
 |站点关键词|王九弦SZ·Ninty,汐塔魔法屋,个人网站,个人博客|
 |站点配色|#e66744或#ef9140|
-|rss链接|https://blog.sinzmise.top/atom.xml|
+|rss链接|https://blog.storical.space/atom.xml|
 <!-- endtab -->
 <!-- tab Butterfly(anzhiyu) & MengD -->
 ```yml
 - name: 汐塔魔法屋
-  link: https://blog.sinzmise.top/
-  avatar: https://blog.sinzmise.top/images/icon.png
+  link: https://blog.storical.space/
+  avatar: https://blog.storical.space/images/icon.png
   descr: 种下一颗有故事的种子，让它带着魔法和奇迹生根发芽
-  siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.sinzmise.top/
+  siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.storical.space/
   theme_color: "#e66744"
 ```
 <!-- endtab -->
 <!-- tab Volantis -->
 ```yml
 - name: 汐塔魔法屋
-  link: https://blog.sinzmise.top/
-  avatar: https://blog.sinzmise.top/images/icon.png
+  link: https://blog.storical.space/
+  avatar: https://blog.storical.space/images/icon.png
   description: 种下一颗有故事的种子，让它带着魔法和奇迹生根发芽
   keywords: 王九弦SZ·Ninty,汐塔魔法屋,个人网站,个人博客
-  screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.sinzmise.top/
+  screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.storical.space/
 ```
 <!-- endtab -->
 <!-- tab Yun -->
 ```json
 {
-    "url": "https://blog.sinzmise.top/",
-    "avatar": "https://blog.sinzmise.top/images/icon.png",
+    "url": "https://blog.storical.space/",
+    "avatar": "https://blog.storical.space/images/icon.png",
     "name": "王九弦SZ·Ninty",
     "color": "#e66744", //或者 #ef9140
     "blog": "汐塔魔法屋", 
@@ -152,318 +142,26 @@ aside: false
 - {
   name: '汐塔魔法屋',
   intro: '种下一颗有故事的种子，让它带着魔法和奇迹生根发芽',
-  link: 'https://blog.sinzmise.top/',
-  avatar: 'https://blog.sinzmise.top/images/icon.png'
+  link: 'https://blog.storical.space/',
+  avatar: 'https://blog.storical.space/images/icon.png'
 }
 ```
 <!-- endtab -->
 <!-- tab Html -->
 ```html
-<a href="https://blog.sinzmise.top/"><img src="https://blog.sinzmise.top/images/icon.png" alt="avatar">汐塔魔法屋</a>
+<a href="https://blog.storical.space/"><img src="https://blog.storical.space/images/icon.png" alt="avatar">汐塔魔法屋</a>
 ```
 <!-- endtab -->
 <!-- tab jade -->
 ```pug
-a(href='https://blog.sinzmise.top/')
-  img(src='https://blog.sinzmise.top/images/icon.png', alt='avatar') 汐塔魔法屋
+a(href='https://blog.storical.space/')
+  img(src='https://blog.storical.space/images/icon.png', alt='avatar') 汐塔魔法屋
 ```
 或者
 ```pug
-a(href='https://blog.sinzmise.top/' rel="external nofollow") 汐塔魔法屋
+a(href='https://blog.storical.space/' rel="external nofollow") 汐塔魔法屋
 ```
 <!-- endtab -->
 {% endtabs %}
-# 评论区申请（速度较慢）
-<div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>&nbsp;快速申请 (默认样式)</button> <button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>&nbsp;快速申请 (Butterfly)</button></div>
-<script src="/js/kslink.js"></script>
-
-## Qexo申请（速度较快）
-<article class="message is-info">
-    <div class="message-header">
-        通过Qexo申请友链
-    </div>
-    <div class="message-body">
-        <div class="form-ask-friend">
-            <div class="field">
-                <label class="label">站点名字</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="你的站点名字" id="friend-name" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-signature"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">站点链接</label>
-            <div class="control has-icons-left">
-                <input class="input" type="url" placeholder="你的站点链接" id="friend-link" required>
-                <span class="icon is-small is-left">
-                    <i class="fas fa-link"></i>
-                </span>
-            </div>
-            <p class="help ">请确保该网站可访问！</p>
-            </div>
-            <div class="field">
-                <label class="label">站点图标</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="url" placeholder="你的站点图标" id="friend-icon" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-image"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">站点简介</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="你的站点简介" id="friend-des" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-info"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <div class="control">
-                    <label class="checkbox">
-                        <input type="checkbox" id="friend-check"/> 我不会提交无意义的信息，并且已经遵守以上规则。
-                    </label>
-                </div>
-            </div>
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-info" type="submit" onclick="askFriend(event)">提交</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
-<script data-pjax src="https://recaptcha.net/recaptcha/api.js?render=6LcrLZwqAAAAAE2vd7a-W_5tNO5jsCI-GXf0ONo8"></script>
-<script data-pjax>
-function TestUrl(url) {
-    var Expression=/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
-    var objExp=new RegExp(Expression);
-    if(objExp.test(url) != true){
-        return false;
-    }
-    return true;
-}
-function askFriend (event) {
-    let check = $("#friend-check").is(":checked");
-    let name = $("#friend-name").val();
-    let url = $("#friend-link").val();
-    let image = $("#friend-icon").val();
-    let des = $("#friend-des").val();
-    if(!check){
-        alert("Please check \"I am not submitting nonsense information\"");
-        return;
-    }
-    if(!(name&&url&&image&&des)){
-        alert("The information is incomplete! ");
-        return;
-    }
-    if (!(TestUrl(url))){
-        alert("URL format error! Need to include HTTP protocol header! ");
-        return;
-    }
-    if (!(TestUrl(image))){
-        alert("The format of the slice URL is wrong! It needs to contain the HTTP protocol header! ");
-        return;
-    }
-    event.target.classList.add('is-loading');
-    grecaptcha.ready(function() {
-          grecaptcha.execute('6LcrLZwqAAAAAE2vd7a-W_5tNO5jsCI-GXf0ONo8', {action: 'submit'}).then(function(token) {
-              $.ajax({
-                type: 'get',
-                cache: false,
-                url: url,
-                dataType: "jsonp",
-                async: false,
-                processData: false,
-                //timeout:10000, 
-                complete: function (data) {
-                    if(data.status==200){
-                    $.ajax({
-                        type: 'POST',
-                        dataType: "json",
-                        data: {
-                            "name": name,
-                            "url": url,
-                            "image": image,
-                            "description": des,
-                            "verify": token,
-                        },
-                        url: 'https://houtai.hexo.sinzmise.top/pub/ask_friend/',
-                        success: function (data) {
-                            alert(data.msg);
-                        }
-                    });}
-                    else{
-                        alert("The URL cannot be reached!");
-                    }
-                    event.target.classList.remove('is-loading');
-                }
-          });
-        });
-    });
-}
-</script>
-
-<style>
-    .status-tag {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        padding: 1px 8px;
-        border-radius: 12px;
-        font-size: 10px;
-        color: white;
-        font-weight: bold;
-        transition: font-size 0.3s ease-out, width 0.3s ease-out, opacity 0.3s ease-out;
-    }
-    .flink-list-item:hover .status-tag {
-        font-size: 0px;
-        opacity: 0;
-    }
-    /* 固态颜色 */
-    .status-tag-green {
-        background-color: #005E00; /* 绿色 */
-    }
-    .status-tag-light-yellow {
-        background-color: #FED101; /* 浅黄色 */
-    }
-    .status-tag-dark-yellow {
-        background-color: #F0B606; /* 深黄色 */
-    }
-    .status-tag-red {
-        background-color: #B90000; /* 红色 */
-    }
-</style>
-<script>
-function addStatusTagsWithCache(jsonUrl) {
-    const cacheKey = "statusTagsData";
-    const cacheExpirationTime = 30 * 60 * 1000; // 半小时
-    function applyStatusTags(data) {
-        const linkStatus = data.link_status;
-        document.querySelectorAll('.site-card').forEach(card => { // 一定要注意这里的类名，小心匹配不上
-            if (!card.href) return;
-            const link = card.href.replace(/\/$/, '');
-            const statusTag = document.createElement('div');
-            statusTag.classList.add('status-tag');
-            let matched = false;
-            // 查找链接状态
-            const status = linkStatus.find(item => item.link.replace(/\/$/, '') === link);
-            if (status) {
-                let latencyText = '未知';
-                let className = 'status-tag-red'; // 默认红色
-                if (status.latency === -1) {
-                    latencyText = '未知';
-                } else {
-                    latencyText = status.latency.toFixed(2) + ' s';
-                    if (status.latency <= 2) {
-                        className = 'status-tag-green';
-                    } else if (status.latency <= 5) {
-                        className = 'status-tag-light-yellow';
-                    } else if (status.latency <= 10) {
-                        className = 'status-tag-dark-yellow';
-                    }
-                }
-                statusTag.textContent = latencyText;
-                statusTag.classList.add(className);
-                matched = true;
-            }
-            if (matched) {
-                card.style.position = 'relative';
-                card.appendChild(statusTag);
-            }
-        });
-        document.querySelectorAll('.flink-list-item').forEach(card => { // 一定要注意这里的类名，小心匹配不上
-            if (!card.href) return;
-            const link = card.href.replace(/\/$/, '');
-            const statusTag = document.createElement('div');
-            statusTag.classList.add('status-tag');
-            let matched = false;
-            // 查找链接状态
-            const status = linkStatus.find(item => item.link.replace(/\/$/, '') === link);
-            if (status) {
-                let latencyText = '未知';
-                let className = 'status-tag-red'; // 默认红色
-                if (status.latency === -1) {
-                    latencyText = '未知';
-                } else {
-                    latencyText = status.latency.toFixed(2) + ' s';
-                    if (status.latency <= 2) {
-                        className = 'status-tag-green';
-                    } else if (status.latency <= 5) {
-                        className = 'status-tag-light-yellow';
-                    } else if (status.latency <= 10) {
-                        className = 'status-tag-dark-yellow';
-                    }
-                }
-                statusTag.textContent = latencyText;
-                statusTag.classList.add(className);
-                matched = true;
-            }
-            if (matched) {
-                card.style.position = 'relative';
-                card.appendChild(statusTag);
-            }
-        });
-        document.querySelectorAll('.flink-list-card').forEach(card => { // 一定要注意这里的类名，小心匹配不上
-            if (!card.href) return;
-            const link = card.href.replace(/\/$/, '');
-            const statusTag = document.createElement('div');
-            statusTag.classList.add('status-tag');
-            let matched = false;
-            // 查找链接状态
-            const status = linkStatus.find(item => item.link.replace(/\/$/, '') === link);
-            if (status) {
-                let latencyText = '未知';
-                let className = 'status-tag-red'; // 默认红色
-                if (status.latency === -1) {
-                    latencyText = '未知';
-                } else {
-                    latencyText = status.latency.toFixed(2) + ' s';
-                    if (status.latency <= 2) {
-                        className = 'status-tag-green';
-                    } else if (status.latency <= 5) {
-                        className = 'status-tag-light-yellow';
-                    } else if (status.latency <= 10) {
-                        className = 'status-tag-dark-yellow';
-                    }
-                }
-                statusTag.textContent = latencyText;
-                statusTag.classList.add(className);
-                matched = true;
-            }
-            if (matched) {
-                card.style.position = 'relative';
-                card.appendChild(statusTag);
-            }
-        });
-    }
-    function fetchDataAndUpdateUI() {
-        fetch(jsonUrl)
-            .then(response => response.json())
-            .then(data => {
-                applyStatusTags(data);
-                const cacheData = {
-                    data: data,
-                    timestamp: Date.now()
-                };
-                localStorage.setItem(cacheKey, JSON.stringify(cacheData));
-            })
-            .catch(error => console.error('Error fetching test-flink result.json:', error));
-    }
-    const cachedData = localStorage.getItem(cacheKey);
-    if (cachedData) {
-        const { data, timestamp } = JSON.parse(cachedData);
-        if (Date.now() - timestamp < cacheExpirationTime) {
-            applyStatusTags(data);
-            return;
-        }
-    }
-    fetchDataAndUpdateUI();
-}
-setTimeout(() => {
-    addStatusTagsWithCache('https://cl.blog.sinzmise.top/result.json');
-}, 0);
-</script>
+# 申请友链
+请前往[这个地方](https://github.com/SinzMise/blog/blob/master/source/_data/links.yml)，按照格式在后面添加您的链接之后提交一个 Pull Request
