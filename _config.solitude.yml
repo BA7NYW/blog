@@ -144,7 +144,7 @@ aside:
     # 介绍 / Introduction
     description: 种下故事的种子，在光的照耀下生根发芽
     # 内容 / Content
-    content: '人生<strong>没必要</strong>想太多“为什么”<br>也<strong>没必要</strong>想太多乱七八糟的事情<br>而是应该想“怎么做”“怎么样”“会成功的”<br>给自己一些鼓励和关爱<br>才能遇到好的生活' # 这是我的博客 / This is my Blog
+    content: '人生 没必要 想太多“为什么”<br>也 没必要 想太多乱七八糟的事情<br>而是应该想“怎么做”“怎么样”“会成功的”<br>给自己一些鼓励和关爱<br>才能遇到好的生活' # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
