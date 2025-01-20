@@ -6,7 +6,7 @@ const blacklist = ["Hexo", "Butterfly"]; // 由于某种原因，不想订阅的
 let friends = [],
     data_f = YML.parse(fs.readFileSync('source/_data/links.yml').toString().replace(/(?<=rss:)\s*\n/g, ' ""\n'));
 
-data_f.forEach((entry, index) => {
+data_f.links.forEach((entry, index) => {
     let lastIndex = 5;
     if (index < lastIndex) {
         const filteredLinkList = entry.link_list.filter(linkItem => !blacklist.includes(linkItem.name));
@@ -32,7 +32,7 @@ console.log('friend.json 文件已生成。');
 let ls   = [],
     data = YML.parse(fs.readFileSync('source/_data/links.yml').toString().replace(/(?<=rss:)\s*\n/g, ' ""\n'));
 
-data.forEach((e, i) => {
+data.links.forEach((e, i) => {
     let j = 5;  //获取友链数组的范围（除了最后，前面的都获取）
     if (i < j) ls = ls.concat(e.link_list)
 });
