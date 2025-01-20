@@ -1,0 +1,1 @@
+!function(n){const o=window.location.href,e="https://webmention.io";n.webmentionsPromise=fetch(e+"/api/mentions.jf2?target="+encodeURIComponent(o)).then((function(n){return console.log("sucess "+e+"/api/mentions.jf2?target="+o),n.json()})).catch((function(n){console.error("fetch webmention error"+n)}))}(window.webmentionContext);
