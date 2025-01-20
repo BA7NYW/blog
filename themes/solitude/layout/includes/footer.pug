@@ -74,15 +74,18 @@ div#footer-bar
         if theme.footer.links
             div.footer-bar-right
                 each item in theme.footer.links
-                    if item.icon
-                        a.footer-bar-link(href=url_for(item.url), alt=item.name)
-                                each icon in item.icon
-                                    i.solitude(class=icon)
-                    else if item.img
-                        a.footer-bar-link(href=url_for(item.url), alt=item.name)
-                            img(src=url_for(item.img), alt=item.name)
+                    if item.url
+                        if item.icon
+                            a.footer-bar-link(href=url_for(item.url), alt=item.name)
+                                    each icon in item.icon
+                                        i.solitude(class=icon)
+                        else if item.img
+                            a.footer-bar-link(href=url_for(item.url), alt=item.name)
+                                img(src=url_for(item.img), alt=item.name)
+                        else
+                            a.footer-bar-link(href=url_for(item.url), alt=item.name)!= item.name
                     else
-                        a.footer-bar-link(href=url_for(item.url), alt=item.name)!= item.name
+                        a.footer-bar-link(alt=item.name)!= item.name
                         
 if theme.comment.use && theme.comment.commentBarrage
     div.comment-barrage.needEndHide
