@@ -7,13 +7,13 @@
             img.avatar-img(alt=_p('aside.avatar'), src=theme.aside.my_card.author.img)
             if theme.aside.my_card.author.sticker
                 .avatar-sticker
-                    img.u-logo.avatar-sticker-img(src=theme.aside.my_card.author.sticker, alt=_p('aside.sticker'))
+                    img.u-photo.avatar-sticker-img(src=theme.aside.my_card.author.sticker, alt=_p('aside.sticker'))
         .author-info__description_group
             .author-info__description!= theme.aside.my_card.content
         .author-info__bottom-group
             span.author-info__bottom-group-left
                 .author-info__name.p-name.p-author= config.author
-                .author-info__desc!= theme.aside.my_card.description
+                .author-info__desc.p-note!= theme.aside.my_card.description
             .card-info-social-icons.is-center
                 each value, label in theme.aside.my_card.information || {}
                     - var array = value.split('||')

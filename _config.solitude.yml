@@ -593,6 +593,7 @@ footer:
     - name: 团ICP备20241025号
       url: https://icp.yuncheng.fun/id.php?keyword=20241025
     - name: MIIT备20240818号
+      icon: https://beian.miit.cn.com/logo.svg
       url: https://beian.miit.cn.com/gov/search.php?query=20240818
     - name: 官码2024000155号
       url: https://guan.ma/hao/2024000155/
