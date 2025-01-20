@@ -10,11 +10,11 @@ links:
         avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
         descr: 快速、简单且强大的网站框架
         topimg: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://hexo.io/zh-tw/
-      - name: Butterfly
-        link: https://butterfly.js.org/
-        avatar: https://butterfly.js.org/img/butterfly-icon.png
-        descr: A Simple and Card UI Design theme for Hexo
-        topimg: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://butterfly.js.org/
+      - name: Solitude
+        link: https://github.com/everfu/hexo-theme-solitude
+        avatar: https://solitude.js.org/img/logo.png
+        descr: 一款优雅的 Hexo 主题，支持懒加载、PWA、Latex 以及多种评论系统。
+        topimg: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://solitude.js.org
   - class_name: 大佬们
     descr: 膜拜大佬~~
     type: card
