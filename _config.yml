@@ -182,7 +182,7 @@ swpp:
   # 是否生成 sw
   # serviceWorker: true
   # 是否向所有 HTML 插入注册 sw 的代码
-  # auto_register: true
+  auto_register: false
   # 是否生成 DOM 端的 JS 文件并在 HTML 中插入 script
   # gen_dom: true
   # 生成的 diff 文件的路径（可以是绝对路径也可以是相对路径，使用相对路径时相对于网站发布目录），留空表示不生成（默认为 null）
