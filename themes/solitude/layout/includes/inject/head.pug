@@ -4,6 +4,9 @@ each item in theme.verify_site || []
 link(rel="canonical" href=urlNoIndex())
 link(rel="stylesheet", href=url_for(theme.cdn.fontawesome))
 
+//- PreConnect
+!=partial('includes/head/preconnect', {}, {cache: true})
+
 //- aplayer
 if theme.capsule.enable || theme.music.enable || theme.brevity.enable && theme.brevity.music
     link(rel="stylesheet", href=url_for(theme.cdn.aplayer_css))
