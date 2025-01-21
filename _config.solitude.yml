@@ -632,6 +632,9 @@ footer:
     - name: 空间穿梭-随机访问BlogsClub成员博客
       url: https://www.blogsclub.org/go
       img: https://www.blogsclub.org/images/shuttle_1.png
+    - name: 本站支持HTTP/3
+      url: https://http3.wcode.net/?q=blog.storical.space
+      img: https://http3.wcode.net/badges/http3.svg?host=blog.storical.space
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
