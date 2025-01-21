@@ -838,7 +838,7 @@ extends:
     - <script async src="//at.alicdn.com/t/c/font_4199232_wlo8truegv.js"></script> # js图标引入4
     - <script src="https://jsd.cdn.sinzmise.top/npm/aplayer/dist/APlayer.min.js"></script>
     - <script src="https://jsd.cdn.sinzmise.top/npm/meting/dist/Meting.min.js"></script>
-    - <script src="https://jsd.cdn.sinzmise.top/@ruffle-rs/ruffle"></script>
+    - <script src="https://jsd.cdn.sinzmise.top/npm/@ruffle-rs/ruffle"></script>
     - <script src="/js/cenguigui.js"></script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
     
