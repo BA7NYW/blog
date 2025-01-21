@@ -32,7 +32,7 @@ script(pjax).
                         title: title,
                         url: i.page_key + '#atk-comment-' + i.id,
                         nick: i.nick,
-                        avatar: '!{avatar}' + '/avatar/' + i.email_encrypted,
+                        avatar: '!{theme.comment.avatar}/avatar/' + i.email_encrypted,
                         time: i.date,
                         content: formatContent(i.content)
                     })

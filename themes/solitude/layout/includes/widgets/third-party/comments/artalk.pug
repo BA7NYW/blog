@@ -10,7 +10,8 @@ script.
                 server: '!{server}',
                 site: "!{site}",
                 pageKey: location.pathname,
-                darkMode: document.documentElement.getAttribute('data-theme') === 'dark'
+                darkMode: document.documentElement.getAttribute('data-theme') === 'dark',
+                countEl: '.artalk-count'
             }, !{JSON.stringify(option)})
             if (GLOBAL_CONFIG.lightbox === 'null') return
             artalkItem.on('list-loaded', () => {

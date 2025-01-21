@@ -37,7 +37,7 @@ script(pjax).
                     title: title,
                     url: i.url,
                     nick: i.nick,
-                    avatar: '!{avatar}' + '/avatar/' + md5(i.mail.trim().toLowerCase()),
+                    avatar: '!{theme.comment.avatar}/avatar/' + md5(i.mail.trim().toLowerCase()),
                     time: i.createdAt,
                     content: formatContent(i.comment)
                 })
