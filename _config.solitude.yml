@@ -139,7 +139,7 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: /img/avatar.png # url
+      img: /img/avatar.webp # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
     description: 种下故事的种子，在光的照耀下生根发芽
@@ -248,14 +248,23 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover: 
-      - 'https://images1.blog.sinzmise.top/185f135bac68ed5f558e042c9f2d663d48d5362b.77dkep9sqh.webp'
-      - 'https://images1.blog.sinzmise.top/64cb52bd7052b3aa4868b906fab59f46cfa6acd0.1hs8lsyu1t.webp'
-      - 'https://images1.blog.sinzmise.top/a9179659586ee509f27367a82c4d639b52ba1342.6t756ikwq7.webp'
-      - 'https://images1.blog.sinzmise.top/421f8fbd754f7f6264cb40b78812cc5d60e5911b.4g4ipb73jd.webp'
-      - 'https://images1.blog.sinzmise.top/b8171c65a69cb14d1bb8150936585151edc7cb72.83a2cu2vkv.webp'
-      - 'https://images1.blog.sinzmise.top/1.1e8mo35qzm.webp'
-      - 'https://images1.blog.sinzmise.top/2.6wqr48dz46.webp'
-      - 'https://images1.blog.sinzmise.top/3.7i0eqj8ffl.webp'
+      - 'https://images1.blog.sinzmise.top/azurlane/8.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/7.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/6.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/3.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/2.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/1.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/b8171c65a69cb14d1bb8150936585151edc7cb72.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/a9179659586ee509f27367a82c4d639b52ba1342.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/421f8fbd754f7f6264cb40b78812cc5d60e5911b.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/64cb52bd7052b3aa4868b906fab59f46cfa6acd0.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/17.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/15.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/14.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/13.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/11.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/10.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/9.avif'
       # - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
@@ -267,14 +276,23 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover: 
-      - 'https://images1.blog.sinzmise.top/185f135bac68ed5f558e042c9f2d663d48d5362b.77dkep9sqh.webp'
-      - 'https://images1.blog.sinzmise.top/64cb52bd7052b3aa4868b906fab59f46cfa6acd0.1hs8lsyu1t.webp'
-      - 'https://images1.blog.sinzmise.top/a9179659586ee509f27367a82c4d639b52ba1342.6t756ikwq7.webp'
-      - 'https://images1.blog.sinzmise.top/421f8fbd754f7f6264cb40b78812cc5d60e5911b.4g4ipb73jd.webp'
-      - 'https://images1.blog.sinzmise.top/b8171c65a69cb14d1bb8150936585151edc7cb72.83a2cu2vkv.webp'
-      - 'https://images1.blog.sinzmise.top/1.1e8mo35qzm.webp'
-      - 'https://images1.blog.sinzmise.top/2.6wqr48dz46.webp'
-      - 'https://images1.blog.sinzmise.top/3.7i0eqj8ffl.webp'
+      - 'https://images1.blog.sinzmise.top/azurlane/8.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/7.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/6.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/3.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/2.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/1.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/b8171c65a69cb14d1bb8150936585151edc7cb72.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/a9179659586ee509f27367a82c4d639b52ba1342.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/421f8fbd754f7f6264cb40b78812cc5d60e5911b.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/64cb52bd7052b3aa4868b906fab59f46cfa6acd0.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/17.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/15.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/14.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/13.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/11.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/10.avif'
+      - 'https://images1.blog.sinzmise.top/azurlane/9.avif'
       # -  # 默认图片 / default cover
     # Location
     # 位置
@@ -560,7 +578,7 @@ rightside:
 footer:
   # 社交图标
   information:
-    author: /img/avatar.png # img url / false
+    author: /img/avatar.webp # img url / false
     left:
       Github: https://github.com/SinzMise || fab fa-github # 名称: 链接 || 图标
       Mail: mailto:email@sinzmise.top || far fa-envelope
